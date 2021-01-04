@@ -37,8 +37,7 @@
     function click()
     {
         if (!isNaN(nbgroupe.value) && nbgroupe.value != 0){
-            //change ?url=groupe/ par /groupe/
-            document.location.href= '?url=groupe/'+ nbgroupe.value;
+            document.location.href= '/groupe/'+ nbgroupe.value;
         }else{
             msg.fadeOut();
             msg.fadeIn();
